@@ -1,3 +1,4 @@
+/* Center content */
 body{
     display: flex;
     flex-direction: column;
@@ -15,7 +16,7 @@ button{
     height:80vh;
     width: 80vw;
 }
-
+/* Auto fills up empty space */
 .row{
     display: flex;
     flex:auto;
