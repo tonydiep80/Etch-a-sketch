@@ -7,6 +7,7 @@ window.addEventListener("load", ()=>{
         do{
             choice = parseInt(prompt("Enter an integer between 2 and 100 inclusive"))
         } while(isNaN(choice) || choice < 2 || choice > 100)
+        //When doing parseInt and it returns undefined, it is still an integer. so isInteger will return true
 
         createGrid(choice)
 
